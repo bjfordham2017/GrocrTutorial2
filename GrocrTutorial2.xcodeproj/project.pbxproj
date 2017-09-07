@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609A1B0C1F61A80500318C78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609A1B0B1F61A80500318C78 /* GoogleService-Info.plist */; };
+		609A1B0E1F61A83600318C78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609A1B0D1F61A83600318C78 /* GoogleService-Info.plist */; };
+		609A1B101F61A85200318C78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609A1B0F1F61A85200318C78 /* GoogleService-Info.plist */; };
 		60CE28291F6184EE006978C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE28281F6184EE006978C2 /* AppDelegate.swift */; };
 		60CE282E1F6184EE006978C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CE282C1F6184EE006978C2 /* Main.storyboard */; };
 		60CE28301F6184EE006978C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CE282F1F6184EE006978C2 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 		60CE28651F618C05006978C2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE28621F618C05006978C2 /* User.swift */; };
 		60CE28681F618C20006978C2 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE28661F618C20006978C2 /* GroceryItem.swift */; };
 		60CE28691F618C20006978C2 /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE28671F618C20006978C2 /* GroceryListTableViewController.swift */; };
+		7B2B1B15BE95BEA7FE252701 /* Pods_GrocrTutorial2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FA0F6816AF2DA92B170E3D /* Pods_GrocrTutorial2.framework */; };
+		FEF949CA7D9BD6BADCB56B5A /* Pods_GrocrTutorial2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4721C2DE4555B826FF116D /* Pods_GrocrTutorial2UITests.framework */; };
+		FF388E6A73629222A01486FC /* Pods_GrocrTutorial2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F911F22F23BC31EB7376847E /* Pods_GrocrTutorial2Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		158608E6C71909024FC565FD /* Pods-GrocrTutorial2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutorial2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrocrTutorial2/Pods-GrocrTutorial2.debug.xcconfig"; sourceTree = "<group>"; };
+		609A1B0B1F61A80500318C78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		609A1B0D1F61A83600318C78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		609A1B0F1F61A85200318C78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		60CE28251F6184EE006978C2 /* GrocrTutorial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrocrTutorial2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CE28281F6184EE006978C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60CE282D1F6184EE006978C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +65,14 @@
 		60CE28621F618C05006978C2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		60CE28661F618C20006978C2 /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroceryItem.swift; path = ../GroceryItem.swift; sourceTree = "<group>"; };
 		60CE28671F618C20006978C2 /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroceryListTableViewController.swift; path = ../GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		8C77F7A8D94DF37534B87968 /* Pods-GrocrTutorial2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutorial2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrocrTutorial2UITests/Pods-GrocrTutorial2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4721C2DE4555B826FF116D /* Pods_GrocrTutorial2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrocrTutorial2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA843AD8934CDD17675F6CA3 /* Pods-GrocrTutorial2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutorial2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrocrTutorial2Tests/Pods-GrocrTutorial2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1AD3243CBE824D5494023A /* Pods-GrocrTutorial2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutorial2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrocrTutorial2Tests/Pods-GrocrTutorial2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CEF517B78B3F3872F8F281C8 /* Pods-GrocrTutorial2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutorial2.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrocrTutorial2/Pods-GrocrTutorial2.release.xcconfig"; sourceTree = "<group>"; };
+		DB58ECCE98CA76F9FB0DE4E2 /* Pods-GrocrTutorial2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutorial2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrocrTutorial2UITests/Pods-GrocrTutorial2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5FA0F6816AF2DA92B170E3D /* Pods_GrocrTutorial2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrocrTutorial2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F911F22F23BC31EB7376847E /* Pods_GrocrTutorial2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrocrTutorial2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2B1B15BE95BEA7FE252701 /* Pods_GrocrTutorial2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF388E6A73629222A01486FC /* Pods_GrocrTutorial2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF949CA7D9BD6BADCB56B5A /* Pods_GrocrTutorial2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +110,8 @@
 				60CE283C1F6184EE006978C2 /* GrocrTutorial2Tests */,
 				60CE28471F6184EE006978C2 /* GrocrTutorial2UITests */,
 				60CE28261F6184EE006978C2 /* Products */,
+				AF1994DFBC22080127A9E8C1 /* Pods */,
+				98997D1548C9D1C3845B885C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +128,7 @@
 		60CE28271F6184EE006978C2 /* GrocrTutorial2 */ = {
 			isa = PBXGroup;
 			children = (
+				609A1B0B1F61A80500318C78 /* GoogleService-Info.plist */,
 				60CE28281F6184EE006978C2 /* AppDelegate.swift */,
 				60CE28601F618C05006978C2 /* LoginViewController.swift */,
 				60CE28671F618C20006978C2 /* GroceryListTableViewController.swift */,
@@ -122,6 +146,7 @@
 		60CE283C1F6184EE006978C2 /* GrocrTutorial2Tests */ = {
 			isa = PBXGroup;
 			children = (
+				609A1B0D1F61A83600318C78 /* GoogleService-Info.plist */,
 				60CE283D1F6184EE006978C2 /* GrocrTutorial2Tests.swift */,
 				60CE283F1F6184EE006978C2 /* Info.plist */,
 			);
@@ -131,10 +156,34 @@
 		60CE28471F6184EE006978C2 /* GrocrTutorial2UITests */ = {
 			isa = PBXGroup;
 			children = (
+				609A1B0F1F61A85200318C78 /* GoogleService-Info.plist */,
 				60CE28481F6184EE006978C2 /* GrocrTutorial2UITests.swift */,
 				60CE284A1F6184EE006978C2 /* Info.plist */,
 			);
 			path = GrocrTutorial2UITests;
+			sourceTree = "<group>";
+		};
+		98997D1548C9D1C3845B885C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FA0F6816AF2DA92B170E3D /* Pods_GrocrTutorial2.framework */,
+				F911F22F23BC31EB7376847E /* Pods_GrocrTutorial2Tests.framework */,
+				AC4721C2DE4555B826FF116D /* Pods_GrocrTutorial2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1994DFBC22080127A9E8C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				158608E6C71909024FC565FD /* Pods-GrocrTutorial2.debug.xcconfig */,
+				CEF517B78B3F3872F8F281C8 /* Pods-GrocrTutorial2.release.xcconfig */,
+				BA843AD8934CDD17675F6CA3 /* Pods-GrocrTutorial2Tests.debug.xcconfig */,
+				BD1AD3243CBE824D5494023A /* Pods-GrocrTutorial2Tests.release.xcconfig */,
+				8C77F7A8D94DF37534B87968 /* Pods-GrocrTutorial2UITests.debug.xcconfig */,
+				DB58ECCE98CA76F9FB0DE4E2 /* Pods-GrocrTutorial2UITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CE284D1F6184EE006978C2 /* Build configuration list for PBXNativeTarget "GrocrTutorial2" */;
 			buildPhases = (
+				6EC4465B59ED8EB20FBF409F /* [CP] Check Pods Manifest.lock */,
 				60CE28211F6184EE006978C2 /* Sources */,
 				60CE28221F6184EE006978C2 /* Frameworks */,
 				60CE28231F6184EE006978C2 /* Resources */,
+				7181C55F68C5C2E6CCCA2C12 /* [CP] Embed Pods Frameworks */,
+				F0501C5B3C45984D90C96815 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CE28501F6184EE006978C2 /* Build configuration list for PBXNativeTarget "GrocrTutorial2Tests" */;
 			buildPhases = (
+				EF00A8DE1DF65C429896FB9D /* [CP] Check Pods Manifest.lock */,
 				60CE28351F6184EE006978C2 /* Sources */,
 				60CE28361F6184EE006978C2 /* Frameworks */,
 				60CE28371F6184EE006978C2 /* Resources */,
+				46E6C3ACABEAFAD2D2FA1AD8 /* [CP] Embed Pods Frameworks */,
+				4376837CDA1F3DD3A14EADC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CE28531F6184EE006978C2 /* Build configuration list for PBXNativeTarget "GrocrTutorial2UITests" */;
 			buildPhases = (
+				70326B8DA90525D00454393A /* [CP] Check Pods Manifest.lock */,
 				60CE28401F6184EE006978C2 /* Sources */,
 				60CE28411F6184EE006978C2 /* Frameworks */,
 				60CE28421F6184EE006978C2 /* Resources */,
+				47FFA2DFA23388A87F796263 /* [CP] Embed Pods Frameworks */,
+				8535856DD02E86C56FC2E8E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60CE28331F6184EE006978C2 /* LaunchScreen.storyboard in Resources */,
+				609A1B0C1F61A80500318C78 /* GoogleService-Info.plist in Resources */,
 				60CE28301F6184EE006978C2 /* Assets.xcassets in Resources */,
 				60CE282E1F6184EE006978C2 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609A1B0E1F61A83600318C78 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +321,163 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609A1B101F61A85200318C78 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4376837CDA1F3DD3A14EADC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrocrTutorial2Tests/Pods-GrocrTutorial2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E6C3ACABEAFAD2D2FA1AD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrocrTutorial2Tests/Pods-GrocrTutorial2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47FFA2DFA23388A87F796263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrocrTutorial2UITests/Pods-GrocrTutorial2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC4465B59ED8EB20FBF409F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrocrTutorial2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70326B8DA90525D00454393A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrocrTutorial2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7181C55F68C5C2E6CCCA2C12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrocrTutorial2/Pods-GrocrTutorial2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrocrTutorial2/Pods-GrocrTutorial2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8535856DD02E86C56FC2E8E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrocrTutorial2UITests/Pods-GrocrTutorial2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF00A8DE1DF65C429896FB9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrocrTutorial2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0501C5B3C45984D90C96815 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrocrTutorial2/Pods-GrocrTutorial2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60CE28211F6184EE006978C2 /* Sources */ = {
@@ -428,6 +641,7 @@
 		};
 		60CE284E1F6184EE006978C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158608E6C71909024FC565FD /* Pods-GrocrTutorial2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GrocrTutorial2/Info.plist;
@@ -440,6 +654,7 @@
 		};
 		60CE284F1F6184EE006978C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF517B78B3F3872F8F281C8 /* Pods-GrocrTutorial2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GrocrTutorial2/Info.plist;
@@ -452,6 +667,7 @@
 		};
 		60CE28511F6184EE006978C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA843AD8934CDD17675F6CA3 /* Pods-GrocrTutorial2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +682,7 @@
 		};
 		60CE28521F6184EE006978C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1AD3243CBE824D5494023A /* Pods-GrocrTutorial2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +697,7 @@
 		};
 		60CE28541F6184EE006978C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C77F7A8D94DF37534B87968 /* Pods-GrocrTutorial2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GrocrTutorial2UITests/Info.plist;
@@ -493,6 +711,7 @@
 		};
 		60CE28551F6184EE006978C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB58ECCE98CA76F9FB0DE4E2 /* Pods-GrocrTutorial2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GrocrTutorial2UITests/Info.plist;
@@ -523,6 +742,7 @@
 				60CE284F1F6184EE006978C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60CE28501F6184EE006978C2 /* Build configuration list for PBXNativeTarget "GrocrTutorial2Tests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +751,7 @@
 				60CE28521F6184EE006978C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60CE28531F6184EE006978C2 /* Build configuration list for PBXNativeTarget "GrocrTutorial2UITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +760,7 @@
 				60CE28551F6184EE006978C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
