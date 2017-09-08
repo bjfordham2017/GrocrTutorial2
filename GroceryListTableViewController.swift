@@ -21,15 +21,18 @@
  */
 
 import UIKit
+import Firebase
+
 
 class GroceryListTableViewController: UITableViewController {
 
   // MARK: Constants
+    
   let listToUsers = "ListToUsers"
-  
-  // MARK: Properties 
+  let ref = Database.database().reference(withPath: "grocery-items")
+  // MARK: Properties
   var items: [GroceryItem] = []
-  var user: User!
+  var user: GrocrUser!
   var userCountBarButtonItem: UIBarButtonItem!
   
   // MARK: UIViewController Lifecycle
@@ -46,7 +49,11 @@ class GroceryListTableViewController: UITableViewController {
     userCountBarButtonItem.tintColor = UIColor.blue
     navigationItem.leftBarButtonItem = userCountBarButtonItem
     
-    user = User(uid: "FakeId", email: "hungry@person.food")
+    user = GrocrUser(uid: "FakeId", email: "hungry@person.food")
+    
+    ref.observe(.value, with: {DataSnapshot in
+        print(DataSnapshot.value)
+    })
   }
   
   // MARK: UITableView Delegate methods
@@ -109,12 +116,16 @@ class GroceryListTableViewController: UITableViewController {
     
     let saveAction = UIAlertAction(title: "Save",
                                    style: .default) { action in
-      let textField = alert.textFields![0] 
-      let groceryItem = GroceryItem(name: textField.text!,
+      guard let textField = alert.textFields?.first,
+                                    let text = textField.text
+                                    else {
+                                        return
+                                    }
+      let groceryItem = GroceryItem(name: text,
                                     addedByUser: self.user.email,
                                     completed: false)
-      self.items.append(groceryItem)
-      self.tableView.reloadData()
+      let groceryItemRef = self.ref.child(text.lowercased())
+      groceryItemRef.setValue(groceryItem.toAnyObject())
     }
     
     let cancelAction = UIAlertAction(title: "Cancel",

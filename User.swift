@@ -22,7 +22,7 @@
 
 import Foundation
 
-struct User {
+struct GrocrUser {
   
   let uid: String
   let email: String
