@@ -52,7 +52,13 @@ class GroceryListTableViewController: UITableViewController {
     user = GrocrUser(uid: "FakeId", email: "hungry@person.food")
     
     ref.observe(.value, with: {DataSnapshot in
-        print(DataSnapshot.value)
+        var newItems: [GroceryItem] = []
+        for item in DataSnapshot.children {
+            let groceryItem = GroceryItem(snapshot: item as! DataSnapshot)
+            newItems.append(groceryItem)
+        }
+        self.items = newItems
+        self.tableView.reloadData()
     })
   }
   
