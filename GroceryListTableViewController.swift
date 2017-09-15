@@ -22,6 +22,7 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
 
 
 class GroceryListTableViewController: UITableViewController {
@@ -59,6 +60,13 @@ class GroceryListTableViewController: UITableViewController {
         }
         self.items = newItems
         self.tableView.reloadData()
+    })
+    
+    Auth.auth().addStateDidChangeListener({auth, user in
+        guard let user = user else {
+            return
+        }
+        self.user = GrocrUser(authData: user)
     })
   }
   
